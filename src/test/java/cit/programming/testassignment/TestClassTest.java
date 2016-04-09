@@ -25,9 +25,9 @@ public class TestClassTest {
         System.out.println("main");
         String[] args = null;
         TestClass.main(args);
-        //assertEquals(1,1);
+        assertEquals(1,1);
         // TODO review the generated test code and remove the default call to fail.
-        //fail("The test case is a prototype.");
+        
     }
     
 }
