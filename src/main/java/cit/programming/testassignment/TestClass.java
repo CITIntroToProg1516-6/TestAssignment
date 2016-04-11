@@ -11,7 +11,14 @@ package cit.programming.testassignment;
  */
 public class TestClass {
     public static void main(String[] args){
-        System.out.println("helloworld");
+        System.out.println("Hey");
+        System.out.println("Kill");
+        While(true){
+        if (1 ==1){
+            System.out.println("Kill");
+                }
+        else{ System.exit(0);
+    }
         //comment
         
     }
