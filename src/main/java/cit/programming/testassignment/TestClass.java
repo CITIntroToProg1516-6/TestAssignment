@@ -1,18 +1,16 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cit.programming.testassignment;
 
-/**
- *
- * @author chris
- */
 public class TestClass {
     public static void main(String[] args){
-        System.out.println("helloworld");
-        //comment
+        do { break; } while(true);
         
+        int i = 7;
+        int[] j = new int[++i];
+        
+        for (int k = 0; k < j.length; k++) {
+            j[k] = j[i++] + j[j[--i]];
+        }
+        
+        System.out.println(j[i++] + j[j[--i]]);
     }
 }
